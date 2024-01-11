@@ -1,2 +1,2 @@
-# Ebay vs Pirate Ship
+# EvsPS Rates
 This simple javascript userscript allows users to compare shipping rates between Ebay and Pirate Ship.
