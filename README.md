@@ -32,6 +32,9 @@ This simple javascript userscript allows users to quickly compare shipping rates
   + If Ebay is the cheapest you can click 'OK' and it will return you to the Ebay shipping page.
   <img src="https://raw.githubusercontent.com/mrflipperscripter/evspsrates/main/assets/screenshot2.jpg " width="600">
 
+## Note:
+This doesn't compare flat rate costs. Ebay is cheaper for all flat rate packages currently. If that changes I'll update the script.
+
 ## Support: 
 - <a href='https://ko-fi.com/G2G7T7GCV' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 - Head to my [Ko-Fi](https://ko-fi.com/mrflipperscripter "Ko-Fi") to support my coding journey, ask for help, request features, etc!
