@@ -15,7 +15,7 @@ This simple javascript userscript allows users to quickly compare shipping rates
   + Make sure to fill out all 3 dimensions as to my knowledge UPS and Fedex require so.
   + Pirate Ship has a special deal with UPS and the 3rd dimension will be ignored when Polymailer is checked but again make sure it's filled out for proper UPS price comparision.
   + If you usually only use USPS the 3rd dimension can be ignored (Ebay still requires a value over 0).
-+ Check whether the item is in a Polymailer or not.
++ Check the box if the item is being shipped in a Polymailer.
 + Click the 'Check Pirate Ship' button. 
 + Watch the automation commence.
   + Don't worry no label will purchased. You still control this step to avoid any mishaps.
