@@ -1,6 +1,13 @@
 # EvsPS Rates
 This simple javascript userscript allows users to quickly compare shipping rates between Ebay and Pirate Ship.
 
+<details>
+<summary>Show Video</summary>
+
+https://github.com/mrflipperscripter/evspsrates/assets/156295081/9048e614-76ea-4640-af9b-c9f2b73b2026
+
+</details>
+
 ## Requirements:
 - Install [Firefox](https://www.mozilla.org/en-US/firefox/new/ "Firefox") (May work on other [Violentmonkey](https://violentmonkey.github.io/get-it/ "Violentmonkey")/[Tampermonkey](https://www.tampermonkey.net/ "Tampermonkey") supported browsers)
 - Install [Violentmonkey](https://violentmonkey.github.io/get-it/ "Violentmonkey") or [Tampermonkey](https://www.tampermonkey.net/ "Tampermonkey") (We prefer Violentmonkey so most testing was done with such)
@@ -10,6 +17,8 @@ This simple javascript userscript allows users to quickly compare shipping rates
 + Make sure you're logged into [Pirate Ship](https://ship.pirateship.com/ "Pirate Ship").
 + Go to your Ebay's order [page](https://www.ebay.com/sh/ord "page") and click 'Purchase shipping label' for any item.
 + You'll see a new 'Check Pirate Ship' button on the page as well as a Polymailer checkbox.
+  ![Screenshot 2024-01-11 085441](https://github.com/mrflipperscripter/evspsrates/assets/156295081/b43df605-bbcb-43ca-a308-f311929d0de|width=100)
+
 + Fill in your weight and dimensions as you normally would.
   + The 3rd dimension should be the smallest.
   + Make sure to fill out all 3 dimensions as to my knowledge UPS and Fedex require so.
