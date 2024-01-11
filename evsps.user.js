@@ -13,7 +13,7 @@
 // @grant       GM.xmlHttpRequest
 // @grant       window.close
 // @require     https://code.jquery.com/jquery-3.7.1.js
-// @version     0.8.1
+// @version     0.8.2
 // @author      mrflipperscripter
 // @namespace   https://ko-fi.com/mrflipperscripter
 // @homepage    https://github.com/mrflipperscripter/evspsrates
@@ -112,12 +112,22 @@ if($(location).attr('host') == "www.ebay.com" && window.location.pathname.split(
       document.querySelector('a[class="btn btn-sm dock-triggersync btn-primary"]').click();
       waitForElement('a[class="btn btn-sm dock-triggersync custom-progress-bar btn-primary"]').then(function(){
         waitForElement('a[class="btn btn-sm dock-triggersync btn-primary"]').then(function(){
+          columnspots = $('tr[role="row"] > th')
+          for(var i = 0; i < columnspots.length; i++){
+            if(columnspots.eq(i).attr('data-title') == 'Order ID'){
+              GM_setValue('Column ID',i+1);
+            }else if(columnspots.eq(i).attr('data-title') == 'Action'){
+              GM_setValue('Column Action',i+1);
+            }
+          }
           $('tr.transaction-row').each(function(){
+            z = GM_getValue('Column ID')
+            x = GM_getValue('Column Action')
             orderdid = GM_getValue("Order");
-            orderids = $(this).find('td:nth-child(3)').text();
+            orderids = $(this).find('td:nth-child('+z+')').text();
             if(orderids == orderdid){
               GM_setValue("Step",2);
-              $(this).find('td:nth-child(2) > span').click();
+              $(this).find('td:nth-child('+x+') > span').click();
             };
           });
         });
