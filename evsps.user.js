@@ -13,12 +13,12 @@
 // @grant       GM.xmlHttpRequest
 // @grant       window.close
 // @require     https://code.jquery.com/jquery-3.7.1.js
-// @version     0.8.2
+// @version     0.8.3
 // @author      mrflipperscripter
 // @namespace   https://ko-fi.com/mrflipperscripter
 // @homepage    https://github.com/mrflipperscripter/evspsrates
 // @updateURL   https://github.com/mrflipperscripter/evspsrates/raw/main/evsps.user.js
-// @icon        https://raw.githubusercontent.com/mrebayscripter/ebayvspirateship/main/icon.png
+// @icon        https://raw.githubusercontent.com/mrflipperscripter/evspsrates/main/assets/icon.png
 // @license     MIT License
 // @description This simple javascript userscript allows users to quickly compare shipping rates between Ebay and Pirate Ship.
 // ==/UserScript==
