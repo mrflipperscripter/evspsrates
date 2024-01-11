@@ -19,3 +19,10 @@ This simple javascript userscript allows users to quickly compare shipping rates
 + Click the 'Check Pirate Ship' button. 
 + Watch the automation commence.
   + Don't worry no label will purchased. You still control this step to avoid any mishaps.
++ When the process is finished you will be alerted letting you know which provider and method is cheapest.
+  + If Ebay is the cheapest you can click 'OK' and it will return you to the Ebay shipping page.
+
+## Support:
+- Head to my [Ko-Fi](https://ko-fi.com/mrflipperscripter "Ko-Fi") to support my coding journey, ask for help, request features, etc!
+- I'm currently in the process of writing a fully automated open source / free cross listing tool (currently I've only got Poshmark and Depop working for Men's Clothing/Shoes!
+- Thanks for installing either way! I'm a former full-time reseller hoping to earn a living off coding. I'm very fresh to coding so most of what I write is just learning from failure and to better understand the code.
