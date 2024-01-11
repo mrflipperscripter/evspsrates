@@ -27,7 +27,7 @@ This simple javascript userscript allows users to quickly compare shipping rates
 + Check the box if the item is being shipped in a Polymailer.
 + Click the 'Check Pirate Ship' button. 
 + Watch the automation commence.
-  + Don't worry no label will purchased. You still control this step to avoid any mishaps.
+  + Don't worry no label will be purchased. You still control this step to avoid any mishaps.
 + When the process is finished you will be alerted letting you know which provider and method is cheapest.
   + If Ebay is the cheapest you can click 'OK' and it will return you to the Ebay shipping page.
   <img src="https://raw.githubusercontent.com/mrflipperscripter/evspsrates/main/assets/screenshot2.jpg " width="600">
