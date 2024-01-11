@@ -17,7 +17,7 @@ https://github.com/mrflipperscripter/evspsrates/assets/156295081/9048e614-76ea-4
 + Make sure you're logged into [Pirate Ship](https://ship.pirateship.com/ "Pirate Ship").
 + Go to your Ebay's order [page](https://www.ebay.com/sh/ord "page") and click 'Purchase shipping label' for any item.
 + You'll see a new 'Check Pirate Ship' button on the page as well as a Polymailer checkbox.
-  ![Screenshot 2024-01-11 085441](https://github.com/mrflipperscripter/evspsrates/assets/156295081/b43df605-bbcb-43ca-a308-f311929d0de|width=100)
+  <img src="https://raw.githubusercontent.com/mrflipperscripter/evspsrates/main/assets/screenshot1.png " width="600">
 
 + Fill in your weight and dimensions as you normally would.
   + The 3rd dimension should be the smallest.
@@ -30,6 +30,7 @@ https://github.com/mrflipperscripter/evspsrates/assets/156295081/9048e614-76ea-4
   + Don't worry no label will purchased. You still control this step to avoid any mishaps.
 + When the process is finished you will be alerted letting you know which provider and method is cheapest.
   + If Ebay is the cheapest you can click 'OK' and it will return you to the Ebay shipping page.
+  <img src="https://raw.githubusercontent.com/mrflipperscripter/evspsrates/main/assets/screenshot2.jpg " width="600">
 
 ## Support:
 - Head to my [Ko-Fi](https://ko-fi.com/mrflipperscripter "Ko-Fi") to support my coding journey, ask for help, request features, etc!
