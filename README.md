@@ -35,12 +35,12 @@ This simple javascript userscript allows users to quickly compare shipping rates
 ## Support:
 - Head to my [Ko-Fi](https://ko-fi.com/mrflipperscripter "Ko-Fi") to support my coding journey, ask for help, request features, etc!
 - I'm currently in the process of writing a fully automated open source / free cross listing tool (currently I've only got Poshmark and Depop working for Men's Clothing/Shoes!
-
-<details>
-<summary>Show Video</summary>
+-
+  <details>
+  <summary>Show Video</summary>
   
-https://github.com/mrflipperscripter/evspsrates/assets/156295081/80c8eedd-b8dc-4866-b227-57cf67a904a9
+  https://github.com/mrflipperscripter/evspsrates/assets/156295081/80c8eedd-b8dc-4866-b227-57cf67a904a9
 
-</details>
+  </details>
 
 - Thanks for installing either way! I'm a former full-time reseller hoping to earn a living off coding. I'm very fresh to coding so most of what I write is just learning from failure and to better understand the code.
