@@ -13,7 +13,7 @@
 // @grant       GM.xmlHttpRequest
 // @grant       window.close
 // @require     https://code.jquery.com/jquery-3.7.1.js
-// @version     0.8.3
+// @version     0.8.4
 // @author      mrflipperscripter
 // @namespace   https://ko-fi.com/mrflipperscripter
 // @homepage    https://github.com/mrflipperscripter/evspsrates
@@ -64,6 +64,7 @@ if($(location).attr('host') == "www.ebay.com" && window.location.pathname.split(
       $('button.btn.mpfxe2clYY6eHPGahJzK.btn--borderless').click();
       $('button[name="pirateship"]').click(function(){
         GM_setValue('Step',1);
+        GM_deleteValue('Price');
         $('tr.EF0EY05UTsdb5PdKZvNQ').each(function(){
           shiptype = $(this).find('label.nfImMHAKbqSIEcDk7YLL').text();
           if(shiptype != "USPS Media Mail" && shiptype != "USPS Priority Mail Flat Rate Envelope" && shiptype != "USPS Priority Mail Flat Rate Legal Envelope" && shiptype != "USPS Priority Mail Flat Rate Small Box" && shiptype != "USPS Priority Mail Flat Rate Padded Envelope" && shiptype != "USPS Priority Mail Flat Rate Medium Box" && shiptype != "USPS Priority Mail Flat Rate Large Box" && shiptype != "USPS Priority Mail Express Flat Rate Envelope" && shiptype != "USPS Priority Mail Express Flat Rate Legal Envelope"){
