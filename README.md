@@ -9,10 +9,8 @@ This simple javascript userscript allows users to quickly compare shipping rates
 </details>
 
 ## Requirements:
-- Install [Firefox](https://www.mozilla.org/en-US/firefox/new/ "Firefox") (May work on other [Violentmonkey](https://violentmonkey.github.io/get-it/ "Violentmonkey")/[Tampermonkey](https://www.tampermonkey.net/ "Tampermonkey") supported browsers)
-- Install [Violentmonkey](https://violentmonkey.github.io/get-it/ "Violentmonkey") or [Tampermonkey](https://www.tampermonkey.net/ "Tampermonkey") (We prefer Violentmonkey so most testing was done with such)
-- Install [EvsPS](https://github.com/mrflipperscripter/evspsrates/raw/main/evsps.user.js "EvsPS")
-- (Note: Soon this will be an extension for easier install on Chrome & Firefox)
+- Install the extension for Firefox: [Download](https://addons.mozilla.org/en-US/firefox/addon/evsps/ "Download")
+- (Note: Chrome version coming soon!)
 
 ## Usage:
 + Make sure you're logged into [Pirate Ship](https://ship.pirateship.com/ "Pirate Ship").
