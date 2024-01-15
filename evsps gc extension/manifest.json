@@ -1,0 +1,43 @@
+{
+    "manifest_version": 3,
+    "name": "EvsPS",
+    "version": "0.9",
+  
+    "description": "Simple extension to compare shipping costs between Ebay and Pirate Ship.",
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "mrflipperscripter@gmail.com"
+      }
+    },
+    
+    "icons": {
+      "48": "icon.png",
+      "96": "icon@2x.png"
+    },
+    
+    "permissions": [
+      "activeTab",
+      "tabs", 
+      "storage"
+    ],
+  
+    "content_scripts": [
+      {
+        "matches": [
+          "*://*.pirateship.com/*",
+          "*://*.ebay.com/*"
+        ],
+        "js": [
+          "jquery-3.7.1.min.js",
+          "functions.js",
+          "wait.js",
+          "evsps.js",
+          "psimport.js",
+          "psset.js",
+          "pscompare.js",
+          "psclose.js"
+        ]
+      }
+    ]
+  }
+  
