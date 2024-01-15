@@ -10,6 +10,8 @@ This simple javascript userscript allows users to quickly compare shipping rates
 
 ## Requirements:
 - Install the extension for Firefox: [Download](https://addons.mozilla.org/en-US/firefox/addon/evsps/ "Download")
+  + Make sure to toggle on the optional permissions.
+    <img src="https://raw.githubusercontent.com/mrflipperscripter/evspsrates/main/assets/screenshot3.png" width="600">
 - (Note: Chrome version coming soon!)
 
 ## Usage:
