@@ -12,7 +12,7 @@ This simple javascript userscript allows users to quickly compare shipping rates
 - Install the extension for Firefox: [Download](https://addons.mozilla.org/en-US/firefox/addon/evsps/ "Download")
   + Make sure to toggle on the optional permissions.
     <img src="https://raw.githubusercontent.com/mrflipperscripter/evspsrates/main/assets/screenshot3.png" width="600">
-- (Note: Chrome version coming soon!)
+- Or download the 'evsps gc extension' and install on Chrome manually: [Guide](https://www.cnet.com/tech/services-and-software/how-to-install-chrome-extensions-manually/ "Guide") (too many hoops to jump through to get on the Chrome store page)
 
 ## Usage:
 + Make sure you're logged into [Pirate Ship](https://ship.pirateship.com/ "Pirate Ship").
