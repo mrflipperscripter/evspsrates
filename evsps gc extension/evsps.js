@@ -42,7 +42,7 @@ if($(location).attr('host') == "www.ebay.com" && window.location.pathname.split(
               //   step: 1
               // }
             
-              // chrome.storage.local.set({steps}).then(setItem, onError);
+              // browser.storage.local.set({steps}).then(setItem, onError);
               }else if(localStorage.getItem('price') >= price){
                 localStorage.setItem('price',price);
                 localStorage.setItem('method',shiptype);
@@ -75,13 +75,13 @@ if($(location).attr('host') == "www.ebay.com" && window.location.pathname.split(
             method: localStorage.getItem('method')
             
         };
-        chrome.storage.local.set({details}).then(setItem, onError);
-        chrome.storage.local.get('details').then(gotdetails, onError);
+        browser.storage.local.set({details}).then(setItem, onError);
+        browser.storage.local.get('details').then(gotdetails, onError);
         steps = {
           step: 1
         };
-      chrome.storage.local.set({steps}).then(setItem, onError);
-      chrome.storage.local.get('steps').then(gotsteps, onError);
+      browser.storage.local.set({steps}).then(setItem, onError);
+      browser.storage.local.get('steps').then(gotsteps, onError);
         setTimeout(() => {
           window.open('https://ship.pirateship.com/import')
         },200);

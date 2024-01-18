@@ -1,6 +1,6 @@
 if($(location).attr('href') == "https://ship.pirateship.com/import"){
-    chrome.storage.local.get("details").then(gotdetails, onError);
-    chrome.storage.local.get('steps').then(gotsteps, onError);
+    browser.storage.local.get("details").then(gotdetails, onError);
+    browser.storage.local.get('steps').then(gotsteps, onError);
     waitForElement('a[class="btn btn-sm dock-triggersync btn-primary"]').then(function(){
       // if(GM_getValue('Count') != 0){
       //   if(GM_getValue('Count') % 25 === 0){
@@ -33,8 +33,8 @@ if($(location).attr('href') == "https://ship.pirateship.com/import"){
               steps = {
                 step: 2
               };
-            chrome.storage.local.set({steps}).then(setItem, onError);
-            chrome.storage.local.get('steps').then(gotsteps, onError);
+            browser.storage.local.set({steps}).then(setItem, onError);
+            browser.storage.local.get('steps').then(gotsteps, onError);
               // GM_setValue("Step",2);
               $(this).find('td:nth-child('+x+') > span').click();
             };

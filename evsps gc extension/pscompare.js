@@ -1,7 +1,7 @@
 if($(location).attr('href').split('=')[0] == "https://ship.pirateship.com/ship/batch?id"){
 //   if(GM_getValue('Step') == 3){
-chrome.storage.local.get("details").then(gotdetails, onError);
-chrome.storage.local.get('steps').then(gotsteps, onError);
+browser.storage.local.get("details").then(gotdetails, onError);
+browser.storage.local.get('steps').then(gotsteps, onError);
   waitForElement('span[class="css-53q5a2"]').then(function(){
     if(step == 3){
         if(localStorage.getItem('Count') != 0){
@@ -25,8 +25,8 @@ chrome.storage.local.get('steps').then(gotsteps, onError);
             steps = {
                 step: 4
               };
-            chrome.storage.local.set({steps}).then(setItem, onError);
-            chrome.storage.local.get('steps').then(gotsteps, onError);
+            browser.storage.local.set({steps}).then(setItem, onError);
+            browser.storage.local.get('steps').then(gotsteps, onError);
             document.querySelector('button[class="e1wqgspp0 css-10gu5zq e149rjs01"]').click()
           waitForElement('button[class="css-1hpecs5 e1e91t1o0"]').then(function(){
             document.querySelector('button[class="css-1hpecs5 e1e91t1o0"]').click()
