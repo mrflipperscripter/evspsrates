@@ -1,6 +1,6 @@
 if($(location).attr('href') == "https://ship.pirateship.com/ship/import"){
-    browser.storage.local.get("details").then(gotdetails, onError);
-    browser.storage.local.get('steps').then(gotsteps, onError);
+    chrome.storage.local.get("details").then(gotdetails, onError);
+    chrome.storage.local.get('steps').then(gotsteps, onError);
     waitForElement('div.dd-select').then(function(){
         if(step == 2){
             count = localStorage.getItem('Count');
@@ -8,8 +8,8 @@ if($(location).attr('href') == "https://ship.pirateship.com/ship/import"){
         steps = {
             step: 3
           };
-        browser.storage.local.set({steps}).then(setItem, onError);
-        browser.storage.local.get('steps').then(gotsteps, onError);
+        chrome.storage.local.set({steps}).then(setItem, onError);
+        chrome.storage.local.get('steps').then(gotsteps, onError);
       ispoly = poly;
       if(ispoly == true){
         $('div.dd-select').click();
